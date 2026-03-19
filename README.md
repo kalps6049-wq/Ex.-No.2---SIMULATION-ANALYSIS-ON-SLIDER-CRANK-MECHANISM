@@ -86,6 +86,7 @@ ACCELERATION:
 ## RESULT:
 <img width="828" height="558" alt="Screenshot 2026-03-19 140314" src="https://github.com/user-attachments/assets/23e0ea8b-a627-4dfe-912b-7e2d34775b24" />
 <img width="904" height="334" alt="Screenshot 2026-03-19 140342" src="https://github.com/user-attachments/assets/426f769f-dc45-450a-b02e-cda71083cd38" />
+
 ## OUTPUT:
 ###                Thus, the displacement & velocity analysis for the given slider crank mechanism has been verified.
 
