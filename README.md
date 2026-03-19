@@ -71,6 +71,7 @@
 
 ### Intersection gives point b.
 <img width="909" height="576" alt="Screenshot 2026-03-19 140156" src="https://github.com/user-attachments/assets/c116f253-583e-4def-a31d-ae1cafe9cac1" />
+
  ### VA​=ω×OA
  
  ###                                        VA=31.42×0.15
