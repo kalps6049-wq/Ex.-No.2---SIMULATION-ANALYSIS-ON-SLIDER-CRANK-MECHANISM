@@ -35,10 +35,15 @@
 
 
 ### Angular velocity of crank:
+
 ###                                             ω=2πN/60
+
 ###                                              ω=2π(300)​/60
+
 ###                                              ω=31.42  rad/s
+
 ### CONFIGURATION DIAGRAM:
+
 ###                                                   O = crank center
 
 
@@ -53,8 +58,11 @@
 
 ### At 45° from IDC, OA makes 45° with line of stroke.
  <img width="782" height="378" alt="Screenshot 2026-03-19 140106" src="https://github.com/user-attachments/assets/17713053-4c23-4da5-81cc-43d2c045c450" />
+ 
 ### VELOCITY DIAGRAM:
+
 ###   Choose velocity scale
+
 ### Example: 1 cm = 1 m/s
 
 
