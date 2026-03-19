@@ -72,18 +72,30 @@
 ### Intersection gives point b.
 <img width="909" height="576" alt="Screenshot 2026-03-19 140156" src="https://github.com/user-attachments/assets/c116f253-583e-4def-a31d-ae1cafe9cac1" />
  ### VA​=ω×OA
+ 
  ###                                        VA=31.42×0.15
+ 
 ###                                         VA​=4.71m/s
+
 ### ANGULAR VELOCITY OF CONNECTING ROD:
+
 ###                               VBA​=ωAB​×AB 
- ###                            ωAB​=VAB/BA​​
+
+ ###                            ωAB​=VAB/BA
+ ​​
 ### From velocity diagram (standard solution):
+
 ###                                                       ωAB≈5.5  rad/s   
+
 ### ACCELERATION:
-###                            aA​=(ω*ω)×OA             
-###                            aA​=(31.42*31.42)×0.15     
+###                            aA​=(ω*ω)×OA  
+
+###                            aA​=(31.42*31.42)×0.15 
+
 ###                              aA   =148m/s2
+
 ## RESULT:
+
 <img width="828" height="558" alt="Screenshot 2026-03-19 140314" src="https://github.com/user-attachments/assets/23e0ea8b-a627-4dfe-912b-7e2d34775b24" />
 <img width="904" height="334" alt="Screenshot 2026-03-19 140342" src="https://github.com/user-attachments/assets/426f769f-dc45-450a-b02e-cda71083cd38" />
 
