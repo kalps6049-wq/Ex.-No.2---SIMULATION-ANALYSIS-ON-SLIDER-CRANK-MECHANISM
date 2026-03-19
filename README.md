@@ -3,51 +3,93 @@
 ## DATE: 
 
 ## AIM:
-###   To determine & simulate the displacement & velocity analysis for the given slider crank mechanism. 
-###   An engine mechanism is shown. The Crank CB = 200mm and the connecting rod BA = 600mm. In the position shown, the crankshaft has a speed of 50 rad/s and an angular acceleration of 800 rad/s2
+###  To determine & simulate the displacement & velocity analysis for the given slider crank mechanism
+
+###  The crank of a slider crank mechanism rotates clockwise at a constant speed of 300 r.p.m. The crank is 150 mm and the connecting rod is 600 mm long. Determine : 1. linear velocity and acceleration of the midpoint of the connecting rod, and 2. angular velocity and angular acceleration of the connecting rod, at a crank angle of 45° from inner dead centre position.
 
 
 ## REQUIREMENTS:
-###   ●	Mech Analyzer software.
-###   ●	Processor: Minimum 1.5 GHz
-###   ●	RAM: Minimum 512 MB
-###   ●	Operating System: Windows XP, Windows Vista, Windows 7, Windows 8 or higher.
-###   ●	Dependencies: Microsoft .Net 2.0 framework
-###   ●	Mini Drafter.
-###   ●	Geometry instruments.
+###  ●  Virtual lab software
+###  ● Processor: Minimum 1.5 GHz or higher
+###   ● RAM: Minimum 1 GB (2 GB recommended for better performance)
+###   ● Operating System: Windows 7, Windows 8, Windows 10, Windows 11 or higher
+###   ● Browser: Latest version of Google Chrome, Mozilla Firefox, or Microsoft Edge
+###   ● Internet Connection: Stable internet connection for accessing online experiments
+###   ● Dependencies: JavaScript enabled and updated browser plugins if required
+###   ● Mini Drafter.
+###   ● Geometry instruments
+ 
 
 ## PROCEDURE:
-###  Configuration diagram
-###  Assume scale 1:10
-###  1. Draw a horizontal line and locate C 
-###  2. At C, draw CB of length 20 mm inclined at 1200 
-###  3. With B as centre, BA 60mm, draw an arc to cut the horizontal at A. Join BA to complete the configuration diagram 
-
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/0e905314-0fc5-4e13-a513-67c95aced702)
-
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/590ca17d-5a31-427c-816d-975478542bcd)
+Given Data
+Speed of crank = 300 rpm (clockwise)
 
 
-## Velocity diagram
-###  Scale: 10 m/s = 100 mm (say) 
-###  1. The fixed point C appears as a stationary point in the velocity diagram 
-###  2. Draw the vector bc of length 100 mm, perpendicular to the crank CB from the configuration diagram 
-###  3. At b, draw a projection line perpendicular to AB from the configuration diagram 
-###  4. Draw a horizontal at c, meeting the projection from b at a. join ca to complete the velocity diagram.
-
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/23ca1772-5a92-4b8b-a8bc-e149da33d297)
-
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/d1412f9a-dcab-4433-a9a5-b5d6d19257b9)
-
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/b703f1f3-def1-4fd9-a9da-6b5c4d57b632)
-
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/188cba1a-fe54-4549-a6e5-3bb6b8d7b120)
-
-## Output
+Length of crank OA = 150 mm = 0.15 m
 
 
-### Name:
-### Register Number: 
+Length of connecting rod AB = 600 mm = 0.6 m
 
+
+Crank angle θ = 45° from inner dead centre (IDC)
+
+
+Angular velocity of crank:
+                                             ω=2πN/60
+                                              ω=2π(300)​/60
+                                               ω=31.42  rad/s
+CONFIGURATION DIAGRAM:
+                                                   O = crank center
+
+
+OA = crank (150 mm)
+
+
+AB = connecting rod (600 mm)
+
+
+B = slider moving horizontally
+
+
+At 45° from IDC, OA makes 45° with line of stroke.
+<img width="782" height="378" alt="Screenshot 2026-03-19 140106" src="https://github.com/user-attachments/assets/17713053-4c23-4da5-81cc-43d2c045c450" />
+VELOCITY DIAGRAM:
+  Choose velocity scale
+ Example: 1 cm = 1 m/s
+
+
+Draw oa ⟂ OA representing velocity of A.
+
+
+From a, draw line perpendicular to AB
+ (velocity of B relative to A).
+
+
+From o, draw horizontal line
+ (slider B moves along the line of stroke).
+
+
+Intersection gives point b.
+<img width="909" height="576" alt="Screenshot 2026-03-19 140156" src="https://github.com/user-attachments/assets/c116f253-583e-4def-a31d-ae1cafe9cac1" />
+ VA​=ω×OA
+                                         VA=31.42×0.15
+                                         VA​=4.71m/s
+ANGULAR VELOCITY OF CONNECTING ROD:
+                               VBA​=ωAB​×AB 
+                             ωAB​=VAB/BA​​
+From velocity diagram (standard solution):
+                                                       ωAB≈5.5  rad/s   
+ACCELERATION:
+                            aA​=(ω*ω)×OA             
+                            aA​=(31.42*31.42)×0.15     
+                              aA   =148m/s2
 ## RESULT:
-### Thus the displacement & velocity analysis for the given four bar chain mechanism is simulated.
+<img width="828" height="558" alt="Screenshot 2026-03-19 140314" src="https://github.com/user-attachments/assets/23e0ea8b-a627-4dfe-912b-7e2d34775b24" />
+<img width="904" height="334" alt="Screenshot 2026-03-19 140342" src="https://github.com/user-attachments/assets/426f769f-dc45-450a-b02e-cda71083cd38" />
+## OUTPUT:
+###                Thus, the displacement & velocity analysis for the given slider crank mechanism has been verified.
+
+
+
+
+
